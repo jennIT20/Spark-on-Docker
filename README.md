@@ -28,8 +28,10 @@ docker pull bitnami/spark
 docker run -it --rm big-data-europe/spark
 # or
 docker run -it --rm bitnami/spark
-Usage
-After running the container, you can execute Spark commands in the terminal or submit Spark jobs as needed.
+
+## Usage
+After running the container, you can access the Spark Web UI by navigating to [http://localhost:8080/](http://localhost:8080/) in your web browser. You can execute Spark commands in the terminal or submit Spark jobs as needed.
+
 
 Contributing
 Feel free to submit issues or pull requests for any improvements or fixes.
